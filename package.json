@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "babel.js index.js -o index.transpiled.js"
+    "postinstall": "babel index.js -o index.transpiled.js"
   },
   "repository": {
     "type": "git",
